@@ -110,7 +110,7 @@
     <!-- Akhir Working Space -->
 
     <!-- Forms -->
-    <div class="row justify-content-center form">
+    <!-- <div class="row justify-content-center form">
       <div class="col-lg-8 col-10"
         style="box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5); padding: auto; border-radius: 10px;">
         <h4 style="margin: 20px; text-align: center;">FORM ISIAN PERINCIAN LAPGAS</h4>
@@ -125,93 +125,92 @@
 
         <!-- Form Input -->
 
-        <form style="margin: 20px;" name="form_input_lapgas">
-          <div class="row">
-            <label for="tgl" class="form-label">Tanggal</label>
-            <div class="col-lg">
-              <input type="number" class="form-control" name="tgl_sprin" placeholder="Tanggal Sprin"
-                aria-label="Tanggal Sprin">
-            </div>
-            <div class="col-lg">
-              <input type="number" class="form-control" name="tgl_mulai" placeholder="Tanggal Mulai"
-                aria-label="Tanggal Mulai">
-            </div>
-            <div class="col-lg">
-              <input type="number" class="form-control" name="tgl_selesai" placeholder="Tanggal Selesai"
-                aria-label="Tanggal Selesai">
-            </div>
-          </div>
-          <div class="mb-3">
-            <label for="bulan" class="form-label">Bulan</label>
-            <select class="form-select" name="bulan" aria-label="Default select example">
-              <option value="JANUARI">JANUARI</option>
-              <option value="FEBRUARI">FEBRUARI</option>
-              <option value="MARET">MARET</option>
-              <option value="APRIL">APRIL</option>
-              <option value="MEI">MEI</option>
-              <option value="JUNI">JUNI</option>
-              <option value="JULI">JULI</option>
-              <option value="AGUSTUS">AGUSTUS</option>
-              <option value="SEPTEMBER">SEPTEMBER</option>
-              <option value="OKTOBER">OKTOBER</option>
-              <option value="NOVEMBER">NOVEMBER</option>
-              <option value="DESEMBER">DESEMBER</option>
-            </select>
-          </div>
-          <div class="mb-3">
-            <label for="unit" class="form-label">Unit</label>
-            <select class="form-select" name="unit" aria-label="Default select example">
-              <option value="I">I</I></option>
-              <option value="II">II</option>
-              <option value="III">III</option>
-              <option value="IV">IV</option>
-            </select>
-          </div>
-          <div class="mb-3">
-            <label for="bidang" class="form-label">Bidang</label>
-            <select class="form-select" name="bidang" aria-label="Default select example">
-              <option value="POLITIK">POLITIK</I></option>
-              <option value="EKONOMI">EKONOMI</option>
-              <option value="SOSIAL BUDAYA">SOSIAL BUDAYA</option>
-              <option value="KEAMANAN">KEAMANAN</option>
-            </select>
-          </div>
-          <div class="mb-3">
-            <label for="ldk_pam_gal" class="form-label">Jenis Kegiatan</label>
-            <select class="form-select" name="ldk_pam_gal" aria-label="Default select example">
-              <option value="LIDIK">LIDIK</I></option>
-              <option value="PAM">PAM</option>
-              <option value="GAL">GAL</option>
-              <option value="TUKJAR">TUKJAR</option>
-              <option value="TUKJAR">BINJAR</option>
-            </select>
-          </div>
-          <div class="mb-3">
-            <label for="jdl_lapgas" class="form-label">Judul Lapgas</label>
-            <textarea class="form-control" id="jdl_lapgas" name="jdl_lapgas" placeholder="Isikan dengan huruf Kapital"
-              rows="5"></textarea>
-          </div>
-          <div class="mb-3">
-            <label for="katim" class="form-label">KA TIM</label>
-            <input type="text" class="form-control" name="katim" id="katim" placeholder="Isikan dengan huruf Kapital">
-          </div>
-          <div class="mb-3">
-            <label for="anggota" class="form-label">ANGGOTA</label>
-            <input type="text" class="form-control" name="anggota" id="anggota"
-              placeholder="Isikan dengan huruf Kapital">
-          </div>
-
-
-          <button type="submit" class="btn btn-outline-success btn-kirim">Kirim</button>
-
-          <button class="btn btn-success btn-loading d-none" type="button" disabled>
-            <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
-            Lagi ba Kirim...
-          </button>
-        </form>
+    <form style="margin: 20px;" name="form_input_lapgas">
+      <div class="row">
+        <label for="tgl" class="form-label">Tanggal</label>
+        <div class="col-lg">
+          <input type="number" class="form-control" name="tgl_sprin" placeholder="Tanggal Sprin"
+            aria-label="Tanggal Sprin">
+        </div>
+        <div class="col-lg">
+          <input type="number" class="form-control" name="tgl_mulai" placeholder="Tanggal Mulai"
+            aria-label="Tanggal Mulai">
+        </div>
+        <div class="col-lg">
+          <input type="number" class="form-control" name="tgl_selesai" placeholder="Tanggal Selesai"
+            aria-label="Tanggal Selesai">
+        </div>
       </div>
-    </div>
-    <!-- Akhir Forms -->
+      <div class="mb-3">
+        <label for="bulan" class="form-label">Bulan</label>
+        <select class="form-select" name="bulan" aria-label="Default select example">
+          <option value="JANUARI">JANUARI</option>
+          <option value="FEBRUARI">FEBRUARI</option>
+          <option value="MARET">MARET</option>
+          <option value="APRIL">APRIL</option>
+          <option value="MEI">MEI</option>
+          <option value="JUNI">JUNI</option>
+          <option value="JULI">JULI</option>
+          <option value="AGUSTUS">AGUSTUS</option>
+          <option value="SEPTEMBER">SEPTEMBER</option>
+          <option value="OKTOBER">OKTOBER</option>
+          <option value="NOVEMBER">NOVEMBER</option>
+          <option value="DESEMBER">DESEMBER</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="unit" class="form-label">Unit</label>
+        <select class="form-select" name="unit" aria-label="Default select example">
+          <option value="I">I</I></option>
+          <option value="II">II</option>
+          <option value="III">III</option>
+          <option value="IV">IV</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="bidang" class="form-label">Bidang</label>
+        <select class="form-select" name="bidang" aria-label="Default select example">
+          <option value="POLITIK">POLITIK</I></option>
+          <option value="EKONOMI">EKONOMI</option>
+          <option value="SOSIAL BUDAYA">SOSIAL BUDAYA</option>
+          <option value="KEAMANAN">KEAMANAN</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="ldk_pam_gal" class="form-label">Jenis Kegiatan</label>
+        <select class="form-select" name="ldk_pam_gal" aria-label="Default select example">
+          <option value="LIDIK">LIDIK</I></option>
+          <option value="PAM">PAM</option>
+          <option value="GAL">GAL</option>
+          <option value="TUKJAR">TUKJAR</option>
+          <option value="TUKJAR">BINJAR</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="jdl_lapgas" class="form-label">Judul Lapgas</label>
+        <textarea class="form-control" id="jdl_lapgas" name="jdl_lapgas" placeholder="Isikan dengan huruf Kapital"
+          rows="5"></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="katim" class="form-label">KA TIM</label>
+        <input type="text" class="form-control" name="katim" id="katim" placeholder="Isikan dengan huruf Kapital">
+      </div>
+      <div class="mb-3">
+        <label for="anggota" class="form-label">ANGGOTA</label>
+        <input type="text" class="form-control" name="anggota" id="anggota" placeholder="Isikan dengan huruf Kapital">
+      </div>
+
+
+      <button type="submit" class="btn btn-outline-success btn-kirim">Kirim</button>
+
+      <button class="btn btn-success btn-loading d-none" type="button" disabled>
+        <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+        Lagi ba Kirim...
+      </button>
+    </form>
+  </div>
+  </div> -->
+  <!-- Akhir Forms -->
 
 
 
